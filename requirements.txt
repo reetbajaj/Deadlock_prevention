@@ -1,9 +1,27 @@
+# Core frameworks
 streamlit==1.50.0
+tensorflow==2.16.2
+keras==3.11.3
+scikit-learn==1.7.2
 numpy==1.26.4
 pandas==2.3.3
 matplotlib==3.10.7
-scikit-learn==1.7.2
-tensorflow==2.20.0
-keras==3.11.3
-altair==5.5.0
 plotly==6.3.1
+
+# Utilities
+joblib==1.5.2
+h5py==3.15.0
+protobuf==4.25.8
+requests==2.32.5
+tqdm==4.66.4
+
+# Optional but useful for Streamlit visuals
+altair==5.5.0
+pydeck==0.9.1
+Pygments==2.19.2
+
+# Streamlit extensions
+streamlit-autorefresh==1.0.1
+
+# Compatibility helpers
+typing_extensions==4.15.0
